@@ -12,14 +12,14 @@ import { Platform, StyleSheet, Text, View, TouchableOpacity, AsyncStorage } from
 import Auth0 from 'react-native-auth0';
 import * as constant from '../Helper/Constants'
 
-const auth0 = new Auth0({ domain: 'logisticinfotech.auth0.com', clientId: 'uCJxL2pjCA0vaD5PXIyIUuXT4vAQVsUc' });
+const auth0 = new Auth0({ domain: 'your auth0 domain', clientId: 'your client id' });
 
 export default class Login extends Component {
     onPressLogin = () => {
         auth0.webAuth
             .authorize({
                 scope: 'openid profile email',
-                audience: 'https://logisticinfotech.auth0.com/userinfo',
+                audience: 'https://logisticinfotech.auth0.com/userinfo', // set up here your own audience 
                 connection: 'google-oauth2', //
             })
             .then(
@@ -45,7 +45,7 @@ export default class Login extends Component {
         auth0.webAuth
             .authorize({
                 scope: 'openid profile email',
-                audience: 'https://logisticinfotech.auth0.com/userinfo',
+                audience: 'https://logisticinfotech.auth0.com/userinfo', // set up here your own audience 
                 connection: 'google-oauth2',
             })
             .then(
@@ -71,7 +71,7 @@ export default class Login extends Component {
         auth0.webAuth
             .authorize({
                 scope: 'openid profile email',
-                audience: 'https://logisticinfotech.auth0.com/userinfo',
+                audience: 'https://logisticinfotech.auth0.com/userinfo', // set up here your own audience 
                 connection: 'facebook',
             })
             .then(

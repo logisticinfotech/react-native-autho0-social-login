@@ -7,4 +7,4 @@
 
 Let's follow [this blog](https://www.logisticinfotech.com/blog/social-authentication-auth0-react-native) for detailed discription and how to implement with your app.
 
-![](routingoptimise.gif)
+![](Auth0.gif)
