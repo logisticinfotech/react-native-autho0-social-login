@@ -20,7 +20,7 @@ export default class Login extends Component {
             .authorize({
                 scope: 'openid profile email',
                 audience: 'https://logisticinfotech.auth0.com/userinfo',
-                connection: 'linkedin', //
+                connection: 'google-oauth2', //
             })
             .then(
                 credentials => {
