@@ -3,8 +3,8 @@
   <a href="https://www.logisticinfotech.com/blog/react-navigation-routing-react-native/"<><img src="https://img.shields.io/badge/license-MIT-orange.svg"></a>
 </p>
 
-# react-native-router
+# Social authentication using Auth0 with React Native
 
-Let's follow [this blog](https://www.logisticinfotech.com/blog/react-navigation-routing-react-native/) for detailed discription and how to implement with your app.
+Let's follow [this blog](https://www.logisticinfotech.com/blog/social-authentication-auth0-react-native) for detailed discription and how to implement with your app.
 
 ![](routingoptimise.gif)
