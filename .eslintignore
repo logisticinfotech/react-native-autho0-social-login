@@ -1,0 +1,7 @@
+.env
+httpsCerts
+node_modules/**
+android/**
+ios/**
+__tests__/**
+src/Component
